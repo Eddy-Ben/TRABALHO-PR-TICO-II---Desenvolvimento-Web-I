@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .cabecalho {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex: 1;
+  }
+  
+  .menu-lateral {
+    background-color: orange;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .conteudo {
+    background-color: #00AEEF;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .resumos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .resumo {
+    background-color: hotpink;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    color: white;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: mediumorchid;
+    padding: 10px;
+    flex: 1 1 100px;
+    text-align: center;
+    color: white;
+    max-width: 120px;
+  }
+  
+  .rodape {
+    background-color: #999;
+    padding: 10px;
+    text-align: center;
+  }
